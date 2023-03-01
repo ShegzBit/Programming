@@ -1,0 +1,135 @@
+import turtle
+
+# create a turtle window
+win = turtle.Screen()
+
+# set the background color
+win.bgcolor('white')
+
+# set up the turtle
+t = turtle.Turtle()
+t.pensize(2)
+
+# define a function to draw the little girl
+def draw_little_girl():
+    t.color('red')
+    t.begin_fill()
+    t.circle(20)
+    t.end_fill()
+    t.penup()
+    t.goto(-10, 0)
+    t.pendown()
+    t.color('black')
+    t.begin_fill()
+    t.circle(5)
+    t.end_fill()
+    t.penup()
+    t.goto(10, 0)
+    t.pendown()
+    t.begin_fill()
+    t.circle(5)
+    t.end_fill()
+    t.penup()
+    t.goto(0, -20)
+    t.pendown()
+    t.color('orange')
+    t.begin_fill()
+    t.circle(10)
+    t.end_fill()
+
+# define a function to draw the wicked witch
+def draw_wicked_witch():
+    t.color('green')
+    t.begin_fill()
+    t.goto(100, 100)
+    t.goto(200, 100)
+    t.goto(200, 200)
+    t.goto(100, 200)
+    t.goto(100, 100)
+    t.end_fill()
+    t.penup()
+    t.goto(125, 200)
+    t.pendown()
+    t.color('black')
+    t.begin_fill()
+    t.circle(10)
+    t.end_fill()
+    t.penup()
+    t.goto(175, 200)
+    t.pendown()
+    t.begin_fill()
+    t.circle(10)
+    t.end_fill()
+    t.penup()
+    t.goto(150, 150)
+    t.pendown()
+    t.color('red')
+    t.begin_fill()
+    t.circle(15)
+    t.end_fill()
+    t.penup()
+    t.goto(125, 125)
+    t.pendown()
+    t.color('black')
+    t.begin_fill()
+    t.circle(5)
+    t.end_fill()
+    t.penup()
+    t.goto(175, 125)
+    t.pendown()
+    t.begin_fill()
+    t.circle(5)
+    t.end_fill()
+
+# define a function to draw the good fairy
+def draw_good_fairy():
+    t.color('blue')
+    t.begin_fill()
+    t.goto(-100, 100)
+    t.goto(-200, 100)
+    t.goto(-200, 200)
+    t.goto(-100, 200)
+    t.goto(-100, 100)
+    t.end_fill()
+    t.penup()
+    t.goto(-125, 200)
+    t.pendown()
+    t.color('white')
+    t.begin_fill()
+    t.circle(10)
+    t.end_fill()
+    t.penup()
+    t.goto(-175, 200)
+    t.pendown()
+    t.begin_fill()
+    t.circle(10)
+    t.end_fill()
+    t.penup()
+    t.goto(-150, 150)
+    t.pendown()
+    t.color('purple')
+    t.begin_fill()
+    t.circle(15)
+    t.end_fill()
+    t.penup()
+    t.goto(-125, 125)
+    t.pendown()
+    t.color('white')
+    t.begin_fill()
+    t.circle(5)
+
+# Set up the turtle screen
+screen = turtle.Screen()
+screen.setup(width=600, height=400)
+screen.bgcolor("white")
+
+# Create a turtle to draw with
+t = turtle.Turtle()
+
+# Set the turtle's speed
+t.speed(0)
+
+# Your animation code here
+
+# Wait for a mouse click to close the window
+turtle.exitonclick()

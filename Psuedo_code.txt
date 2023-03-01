@@ -1,0 +1,68 @@
+take user input and store it in x
+take user's second input and store it in y
+add value of x and y and store it in result
+print result
+
+
+print what is your name
+take user's input and store it in name
+print hello then name
+
+Declare a variable number = 2
+while(true):
+    take user input and store it in int;
+    square the value of int and store it in squared;
+    number = number + squared;
+    ask for user on continuation or termination
+
+
+#take 3 input
+#arrange in ascending order and print
+
+take the user input and store it in a
+take second input and store in b
+take third input and store it in c
+IF a is less than b AND a is less than c:
+    print a
+    IF b is less than c
+        print b
+        print c
+    ELSE if c is less than b 
+        print c
+        prints b
+ELSE IF b is less than a AND b is less than c
+    print b
+    IF a is less than c
+        print a
+        print c
+    ELSE IF c is less than a
+        print c
+        print a
+ELSE 
+    print c
+    IF a is less than b
+        print a
+        print b
+        ELSE IF b is less than a 
+            print b
+            print a
+
+
+number = 17
+
+
+#Solution
+#Pseudo code
+
+*Pseudo code for an application that sums up the the input of a user till it hits a negative number*
+Declare n and let n = 0
+Declare a variable v
+while (true):
+    take user input and store it in v
+    IF v is less than 0:
+        end loop
+    ELSE:
+        add the value of v to the current value of n and store it in n
+        print the new value of n
+        continue
+        
