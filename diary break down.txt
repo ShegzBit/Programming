@@ -1,6 +1,0 @@
-first create a program that encrypts a given text
-create a program that reads a file
-create a program that encrypts a file
-create a program that takes input and add it to a file 
-create a progam that decrypts a file
-update the program to decrypt differently depending on entered key

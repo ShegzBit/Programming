@@ -1,0 +1,6 @@
+if decide returns r read 
+returns f incorrect password 
+w write
+returns error redo function
+Decide is decision function
+Destruct is self destruct function
